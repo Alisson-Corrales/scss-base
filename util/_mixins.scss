@@ -68,11 +68,11 @@
     @include box($width, $height)
 }
 
-div{
-    &::after{
-        @include pseudo(200px, 100px)
-    }
-}
+// div{
+//     &::after{
+//         @include pseudo(200px, 100px)
+//     }
+// }
 
 
 
@@ -242,6 +242,6 @@ $desktop-wide: 144px;
 }
 
 
-menu.li {
-    @include css-triangle (red, up, 12px)
-}
+// menu.li {
+//     @include css-triangle (red, up, 12px)
+// }
